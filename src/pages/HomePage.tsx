@@ -15,7 +15,7 @@ function HomePage() {
         <div className="Home">
             <div>
                 <h1>FutureWave LLC</h1>
-                <h2>The Future is now</h2>
+                <h2>The Future is now.</h2>
             </div>
             <div className="buttonsContainer">
                 <button onClick={goToAboutUs}>About Us</button>
