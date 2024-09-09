@@ -5,7 +5,12 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255);
+
   background-color: #1DCBDB;
+  background-image: url("./images/background.jpg") !important; 
+  background-position: center;
+  background-size: cover;
+ 
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -40,4 +45,9 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+.buttonImage {
+  max-width: 200px;
+  max-height: 100px;
 }
