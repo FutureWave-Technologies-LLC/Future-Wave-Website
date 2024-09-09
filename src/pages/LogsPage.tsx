@@ -1,18 +1,17 @@
-import { useNavigate } from 'react-router-dom';
+import NavigateButton from '../components/NavigateButton';
 
 function LogsPage() {
-    const navigate = useNavigate();
-    
-    function goToHomePage() {
-        navigate("/");
-    }
-
     return (
         <div className="Logs">
             <h1>Logs</h1>
-            <a href="https://docs.google.com/document/d/1YmoW6RroP7YpzDHo0FVBTEss3hRd-xOF86gJBfo1W4A/edit?usp=sharing" target="_blank" rel="noopener noreferrer">View Logs</a>
-            <br />
-            <button onClick={goToHomePage}>Back to Home</button>
+            <NavigateButton
+                buttonText="View Logs"
+                img = ""
+                path="https://www.notion.so/Log-Page-8d67882915a449fea08f67ea588ffb63"/>
+            <NavigateButton
+                buttonText="Go to Home"
+                img = ""
+                path="/"/>
         </div>
     )
 }

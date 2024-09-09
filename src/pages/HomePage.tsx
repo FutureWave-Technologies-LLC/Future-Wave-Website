@@ -1,26 +1,27 @@
-import { useNavigate } from 'react-router-dom';
+import NavigateButton from '../components/NavigateButton';
 
 function HomePage() {
-    const navigate = useNavigate();
-    
-    function goToAboutUs() {
-        navigate("/about-us");
-    }
-
-    function goToLogs() {
-        navigate("/logs");
-    }
-
     return (
         <div className="Home">
+            <div className="centered">
             <div>
                 <h1>FutureWave LLC</h1>
                 <h2>The Future is now.</h2>
             </div>
-            <div className="buttonsContainer">
-                <button onClick={goToAboutUs}>About Us</button>
-                <button onClick={goToLogs}>Logs</button>
+            <div>
+                <NavigateButton
+                    buttonText="About Us"
+                    img = ""
+                    path="/about-us"
+                />
+                <NavigateButton
+                    buttonText="Logs"
+                    img = ""
+                    path="/logs"
+                />
             </div>
+            </div>
+            
         </div>
     )
 }
