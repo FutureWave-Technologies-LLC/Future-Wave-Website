@@ -22,32 +22,32 @@ function AboutUsPage() {
         <div className="buttonContainer">
             <NavigateButton
                 buttonText="Bryce"
-                img = "./src/images/placeHoldImg.png"
+                img = "public/images/placeHoldImg.png"
                 path="/"
             />
             <NavigateButton
                 buttonText="Clifton"
-                img = "./src/images/placeHoldImg.png"
+                img = "public/images/placeHoldImg.png"
                 path="/"
             />
             <NavigateButton
                 buttonText="Elias"
-                img = "./src/images/placeHoldImg.png"
+                img = "public/images/placeHoldImg.png"
                 path="/"
             />
             <NavigateButton
                 buttonText="Jake"
-                img = "./src/images/placeHoldImg.png"
+                img = "public/images/placeHoldImg.png"
                 path="/"
             />
             <NavigateButton
                 buttonText="Aye"
-                img = "./src/images/placeHoldImg.png"
+                img = "public/images/placeHoldImg.png"
                 path="/"
             />
             <NavigateButton
                 buttonText="Xam"
-                img = "./src/images/placeHoldImg.png"
+                img = "public/images/placeHoldImg.png"
                 path="/"
             />
         </div>
