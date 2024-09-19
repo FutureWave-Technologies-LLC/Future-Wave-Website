@@ -46,7 +46,7 @@ function AboutUsPage() {
                 path="/"
             />
             <NavigateButton
-                buttonText="Xam"
+                buttonText="Alvaro"
                 img = "/images/placeHoldImg.png"
                 path="/"
             />
